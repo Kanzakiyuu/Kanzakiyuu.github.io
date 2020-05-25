@@ -22,7 +22,7 @@ if (UI.dark_mode) {
 // 初始化页面，并载入必要资源
 function init() {
   document.body.style.backgroundColor="red"
-  document.body.style.backgroundImage="https://kanzakiyuu.github.io/Images/bj.png"
+  document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
   document.siteName = $('title').html();
   $('body').addClass(`mdui-theme-primary-${UI.main_color} mdui-theme-accent-${UI.accent_color}`);
   var html = `
