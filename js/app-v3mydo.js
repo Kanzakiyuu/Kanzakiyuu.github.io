@@ -26,12 +26,12 @@ function init() {
     if(windowWidth < 720){
         document.body.style.backgroundColor="#fff"
 		document.body.style.backgroundImage="url(https://hk1.rbqvpn.cf/2.jpg)"
-		document.body.style.backgroundSize="auto auto"
+		document.body.style.backgroundSize="contain"
     }
     if(windowWidth >= 720){
         document.body.style.backgroundColor="#fff"
 		document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
-		document.body.style.backgroundSize="auto auto"
+		document.body.style.backgroundSize="contain"
     }
   
   document.siteName = $('title').html();
