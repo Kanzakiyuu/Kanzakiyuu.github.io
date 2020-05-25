@@ -7,7 +7,7 @@
  */
 // 在head 中 加载 必要静态
 document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.3/css/mdui_v2.min.css">');
-document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.6/css/nexmoe_v2.min.css">');
+document.write('<link rel="stylesheet" href="//kanzakiyuu.github.io/Css/nexmoe_v2.min.css">');
 document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.3/js/mdui.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/js/flv.min.js"></script>');
 document.write('<script src="//cdn.jsdelivr.net/gh/5MayRain/goIndex-theme-nexmoe@1.1.5/js/DPlayer.min.js"></script>');
@@ -21,8 +21,19 @@ if (UI.dark_mode) {
 
 // 初始化页面，并载入必要资源
 function init() {
-  document.body.style.backgroundColor="#fff"
-  document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
+  
+  var windowWidth = $(window).width();
+    if(windowWidth < 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://hk1.rbqvpn.cf/2.jpg)"
+		document.body.style.backgroundSize="auto auto"
+    }
+    if(windowWidth >= 720){
+        document.body.style.backgroundColor="#fff"
+		document.body.style.backgroundImage="url(https://kanzakiyuu.github.io/Images/bj.png)"
+		document.body.style.backgroundSize="auto auto"
+    }
+  
   document.siteName = $('title').html();
   $('body').addClass(`mdui-theme-primary-${UI.main_color} mdui-theme-accent-${UI.accent_color}`);
   var html = `
