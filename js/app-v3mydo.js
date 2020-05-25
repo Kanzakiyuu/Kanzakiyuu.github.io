@@ -85,6 +85,41 @@ function init() {
 <script src="https://mengxin666.github.io/js/ud.js"></script>
 </div>
 
+<style>
+
+body {
+	background-color: #fff;
+	//background-image:url(https://s2.ax1x.com/2019/05/10/E2JNM8.jpg) !important;
+	background-image:url(https://i.pximg.net/img-original/img/2017/04/12/23/40/56/53672309_p0.png) !important;
+	padding-bottom: 60px;
+	background-position:auto!important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+}
+
+/*
+body{
+	background-image:url('http://api.mtyqx.cn/api/random.php');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center top
+}*/
+
+  
+  
+@media screen and (max-device-width:980px){
+   body {
+	background-image:url(https://hk1.rbqvpn.cf/2.jpg) !important;
+	background-position:auto!important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+		}
+
+}
+</style>
+
 	`;
   $('body').html(html);
 }
