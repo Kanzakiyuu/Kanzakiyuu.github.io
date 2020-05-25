@@ -26,7 +26,7 @@ function init() {
     if(windowWidth < 720){
         document.body.style.backgroundColor="#fff"
 		document.body.style.backgroundImage="url(https://hk1.rbqvpn.cf/2.jpg)"
-		document.body.style.style.backgroundPosition="top center"
+		document.body.style.style.backgroundPosition="bottom"
 		document.body.style.backgroundSize="cover"
 		document.body.style.backgroundAttachment="fixed"
 		document.body.style.backgroundRepeat="no-repeat"
