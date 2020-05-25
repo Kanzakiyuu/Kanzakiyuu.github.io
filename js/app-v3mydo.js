@@ -21,6 +21,8 @@ if (UI.dark_mode) {
 
 // 初始化页面，并载入必要资源
 function init() {
+  document.body.style.backgroundColor="red"
+  document.body.style.backgroundImage="https://kanzakiyuu.github.io/Images/bj.png"
   document.siteName = $('title').html();
   $('body').addClass(`mdui-theme-primary-${UI.main_color} mdui-theme-accent-${UI.accent_color}`);
   var html = `
@@ -70,42 +72,6 @@ function init() {
     transform: translate(0,0);
 }
 @media only screen and (max-width:0px){.sidebar_wo{display:none}}
-
-
-
-body {
-	background-color: #fff;
-	//background-image:url(https://s2.ax1x.com/2019/05/10/E2JNM8.jpg) !important;
-	background-image:url(https://i.pximg.net/img-original/img/2017/04/12/23/40/56/53672309_p0.png) !important;
-	padding-bottom: 60px;
-	background-position:auto!important;
-	background-size: cover !important;
-	background-attachment: fixed !important;
-	background-repeat: no-repeat !important;
-}
-
-/*
-body{
-	background-image:url('http://api.mtyqx.cn/api/random.php');
-	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-position: center top
-}*/
-
-  
-  
-@media screen and (max-device-width:980px){
-   body {
-	background-image:url(https://hk1.rbqvpn.cf/2.jpg) !important;
-	background-position:auto!important;
-	background-size: cover !important;
-	background-attachment: fixed !important;
-	background-repeat: no-repeat !important;
-		}
-
-}
-
-
 </style>
 <div id="updown"> 
 <div class="sidebar_wo" id="leimu" style="cursor:pointer">
@@ -120,7 +86,6 @@ body{
 <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=15886" charset="utf-8" async=""></script><script src="https://mengxin666.github.io/js/jquery.js" type="text/javascript"></script>
 <script src="https://mengxin666.github.io/js/ud.js"></script>
 </div>
-
 
 	`;
   $('body').html(html);
