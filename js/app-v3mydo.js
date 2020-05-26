@@ -48,7 +48,7 @@ function init() {
 			<a href="/"><img class="avatar" src="https://kanzakiyuu.github.io/Images/tou.jpg"/></a>
 			<div class="nav_menu">
 				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://h.rbqvpn.ga" target="_blank">另一个港湾</a></li>
+					<li class="menu_li"><a href="https://h.rbqvpn.cf" target="_blank">现世的港湾</a></li>
 					<li class="menu_li"><a href="https://drive.google.com/" target="_blank">登陆</a></li>
 				</ul>
 				<div class="nav_icon" ></div>
